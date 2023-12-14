@@ -1,0 +1,18 @@
+<script setup>
+import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
+</script>
+
+<template>
+  <el-config-provider :locale="zhCn">
+    <router-view></router-view>
+  </el-config-provider>
+</template>
+
+<style scoped>
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+
+}
+</style>
